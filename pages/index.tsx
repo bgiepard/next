@@ -27,7 +27,7 @@ export default function Home() {
       <main className={styles.main}>
 
         <h1>
-          Testowa strona
+          Testowa strona 2
         </h1>
 
       </main>
