@@ -1,15 +1,12 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import {useEffect} from "react";
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
     useEffect(()=> {
         console.log('test')
-        fetch("https://vegemiska.pl/wp-json/wp/v2/posts")
+        fetch("https://bartekgiepard.usermd.net/backend/wp-json/wp/v2/posts")
             .then(response => response.json())
             .then(response=> {
                 console.log(response)
