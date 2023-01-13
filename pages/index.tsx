@@ -16,7 +16,7 @@ export default function Home() {
       <main className={styles.main}>
 
         <h1>
-          test
+          Testowa strona
         </h1>
 
       </main>
